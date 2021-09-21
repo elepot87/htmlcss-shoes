@@ -3,4 +3,54 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Rubik Mono One", sans-serif;
+}
+
+/* Utilities */
+
+h1 {
+  text-align: center;
+  font-size: 52px;
+}
+
+.bg-red {
+  background-color: #ff0000;
+}
+
+.bg-yellow {
+  background-color: #ffff00;
+}
+
+.bg-green {
+  background-color: #008000;
+}
+
+/* Navigation bar */
+.main-menu {
+  list-style: none;
+}
+
+.main-menu li {
+  display: inline-block;
+}
+
+/* Main section */
+.full-section {
+  height: 100vh;
+  position: relative;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.content h1 {
+  color: yellow;
+}
+
+.full-section:last-child h1 {
+  color: #008000;
 }
